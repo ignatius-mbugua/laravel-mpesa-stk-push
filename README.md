@@ -15,4 +15,4 @@ e.g MPESA_CALLBACK_URL=https://-----.ngrok.io
 
 ### License
 
-open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+MIT License
