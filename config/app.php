@@ -135,6 +135,8 @@ return [
 
     'mpesa_passkey' => env('MPESA_PASSKEY'),
 
+    'mpesa_callback_url' => env('MPESA_CALLBACK_URL'),
+
 
     /*
     |--------------------------------------------------------------------------

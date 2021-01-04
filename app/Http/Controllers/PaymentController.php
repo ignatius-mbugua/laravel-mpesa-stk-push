@@ -118,7 +118,7 @@ class PaymentController extends Controller
     public function mpesaSTKPush(int $amount, int $phone_number)
     {
         $stk_push_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
-        $stk_push_callback_url = 'https://bf88787107e4.ngrok.io/callback-payment';
+        $stk_push_callback_url = config('app.mpesa_callback_url') . '/callback-payment';
 
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $stk_push_url);
